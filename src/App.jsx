@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import "./App.css";
+import { NavBar } from "./components";
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div>App</div>
-  )
+      <BrowserRouter>
+      <NavBar />
+      </BrowserRouter>
+    
+  );
 }
 
-export default App
+export default App;
