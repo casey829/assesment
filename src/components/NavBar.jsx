@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
+
+
     <header className="bg-white py-4 px-5 flex justify-between items-center">
     <div className="flex items-center">
       <Link to="/" className="flex items-center">
@@ -19,7 +21,8 @@ function NavBar() {
       <Link to="/contact" className="text-[#26272d] font-kanit font-light text-base">Contact</Link>
     </nav>
     <div className="flex items-center space-x-3">
-        
+        <Button className="text-[#26272d] font-kanit font-light text-base">Log In</Button>
+        <Button className="text-[#26272d] font-kanit font-light text-base">Sign Up</Button>
       </div>
     
    
