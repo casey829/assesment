@@ -24,13 +24,13 @@ function HeroSection() {
       </p>
       <div className="max-w-lg mx-auto text-center mb-10">
         <p className="font-kanit font-light text-[18px] leading-[26px] tracking-normal text-[#747579] mb-[10px]">
-          1. Your Story: The quality of your answers to the questions.
+           <span className="text-[#26272D]">1. Your Story:</span>The quality of your answers to the questions.
         </p>
         <p className="font-kanit font-light text-[18px] leading-[26px] tracking-normal text-[#747579] mb-[10px]">
-          2. Versatility: Photo submission variants showing your versatility.
+          <span className="text-[#26272D]">2. Versatility:</span> Photo submission variants showing your versatility.
         </p>
         <p className="font-kanit font-light text-[18px] leading-[26px] tracking-normal text-[#747579]">
-          3. Creativity & technique: Composition, lighting, editing, etc
+          <span className="text-[#26272D]"> 3. Creativity & technique:</span> Composition, lighting, editing, etc
         </p>
       </div>
       <div className="flex justify-center">
