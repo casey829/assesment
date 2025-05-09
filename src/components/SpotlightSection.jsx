@@ -11,14 +11,14 @@ function SpotlightSection() {
   ];
 
   return (
-    <section className="absolute top-[676px] left-[65px] w-[calc(100%-160px)] max-w-[1695px] h-[276px] mx-auto">
+    <section className="absolute top-[676px] left-[65px] w-[calc(100%-160px)] max-w-[1695px] h-[276px] mx-auto mt-[100px]">
       <div className="mx-auto px-6 max-w-[1800px]">
         <h2 className="text-2xl font-kanit font-light text-[#26272d] mb-8">
           Recent spotlight
         </h2>
         
         <div className="relative group"> {/* Added group for hover states */}
-          <div className="flex gap-5 overflow-x-auto pb-4 
+          <div className="flex gap-[20px] overflow-x-auto pb-4 
               [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]
               hover:cursor-grab active:cursor-grabbing">
             {SpotlightImages.map((image) => (

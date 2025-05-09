@@ -37,7 +37,7 @@ function HeroSection() {
         </p>
       </div>
       <div className="flex justify-center">
-        <Button className="text-[18px] w-[164px] h-[51px] gap-[10px] rounded-[100px] border-[1.5px] border-[#E0E0E0] py-[12px] px-[40px] bg-[#FAFAFA] text-[#26272D]">
+        <Button className="text-[18px] w-[164px] h-[51px] gap-[10px] rounded-[100px] border-[1.5px] border-[#E0E0E0] py-[12px] px-[40px] bg-[#FAFAFA] text-[#26272D] hover:bg-[#A5A5A5]">
           Get started
         </Button>
       </div>

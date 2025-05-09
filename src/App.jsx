@@ -1,17 +1,19 @@
 import React from "react";
 import "./App.css";
-import { NavBar, HeroSection, SpotlightSection } from "./components";
+import { NavBar, HeroSection, SpotlightSection, ScrollToTop } from "./components";
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-      <BrowserRouter>
-      <NavBar />
-      <HeroSection />
-      <SpotlightSection />
-      </BrowserRouter>
+    <BrowserRouter>
+    <ScrollToTop /> 
+    <NavBar />
+    <HeroSection />
+    <SpotlightSection />
+  </BrowserRouter>
     
   );
 }
 
 export default App;
+
