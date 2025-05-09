@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { NavBar, HeroSection } from "./components";
+import { NavBar, HeroSection, SpotlightSection } from "./components";
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <BrowserRouter>
       <NavBar />
       <HeroSection />
+      <SpotlightSection />
       </BrowserRouter>
     
   );

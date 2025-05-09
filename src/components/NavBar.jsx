@@ -12,7 +12,7 @@ function NavBar() {
             <Img src="/src/assets/logo.svg" alt="PHOTOALBUM Logo" />
           </Link>
         </div>
-        <nav className="flex absolute text-[16px] text-[#26272D] items-center top-1/2 -translate-y-1/2 left-[180px] sm:left-[220px] md:left-[280px] lg:left-[329px] space-x-4 sm:space-x-6 md:space-x-8 lg:space-x-10 w-[351px] h-[16px]">
+        <nav className="flex relative text-[16px] text-[#26272D] items-center top-1/2 -translate-y-1/2 left-[180px] sm:left-[220px] md:left-[280px] lg:left-[329px] space-x-4 sm:space-x-6 md:space-x-8 lg:space-x-10 w-[351px] h-[16px]">
           <Link to="/" className="text-[#26272d] font-kanit font-light text-base whitespace-nowrap">Home</Link>
           <Link to="#" className="text-[#26272d] font-kanit font-light text-base whitespace-nowrap">Community</Link>
           <Link to="#" className="text-[#26272d] font-kanit font-light text-base whitespace-nowrap">Stories</Link>
