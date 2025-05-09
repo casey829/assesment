@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 function HeroSection() {
   return (
-    <section className=" absolute w-[544px] h-[417px] top-[128px] left-[525px] gap-[32px]">
+    <section className="relative w-[544px] h-[417px] top-[128px] left-[525px] gap-[32px]">
       <div className="font-kanit font-light text-[32px] leading-[40px] tracking-[-0.02em] text-center">
         <h1 className="text-[32px] font-kanit text-[#747579]">
           Welcome, Shutterstar ⭐️

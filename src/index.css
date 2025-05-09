@@ -3,6 +3,32 @@
 
 @custom-variant dark (&:is(.dark *));
 
+
+/* Hide scrollbar but keep functionality */
+.scroll-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+/* Ensure scrolling works */
+.scroll-container {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+/* Optional: Add hover effect to indicate scrollability */
+.scroll-container:hover {
+  cursor: grab;
+}
+
+.scroll-container:active {
+  cursor: grabbing;
+}
+
 :root {
   background-color: #FFFFFF;
   --radius: 0.625rem;
